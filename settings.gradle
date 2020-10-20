@@ -1,4 +1,0 @@
-include ':compiler'
-include ':annotation'
-include ':app'
-rootProject.name = "DatabindingObservableCompiler"
