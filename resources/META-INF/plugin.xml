@@ -1,0 +1,22 @@
+<idea-plugin>
+    <id>com.hacknife.databindingobserable</id>
+    <name>Databinding Obserable</name>
+    <version>1.0</version>
+    <vendor email="hacknife@outlook.com">hacknife</vendor>
+    <description>Javabean convert to observable</description>
+    <change-notes>1.Javabean convert to observable</change-notes>
+    <idea-version since-build="173.0"/>
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Add your extensions here -->
+    </extensions>
+
+    <actions>
+        <action id="com.hacknife.databindingpbservable.converter" class="com.hacknife.databindingpbservable.Converter"
+                text="Convert to DataBindingObservable" description="Javabean convert to observable">
+            <add-to-group group-id="GenerateGroup" anchor="first"/>
+        </action>
+    </actions>
+
+</idea-plugin>
